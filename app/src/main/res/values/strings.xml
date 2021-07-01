@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Admin Tip</string>
+    <string name="app_name">Beta Bet Admin</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +9,66 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string-array name="league">
+        <item>EPL</item>
+        <item>Bundesliga</item>
+        <item>Spain laliga</item>
+        <item>Seria A</item>
+    </string-array>
+    <string-array name="EPL">
+        <item>Arsenal</item>
+        <item>Manchester United</item>
+        <item>Manchester City</item>
+        <item>Liverpool</item>
+        <item>Chelsea</item>
+        <item>Aston Villa</item>
+        <item>Brighton</item>
+        <item>Wolves</item>
+    </string-array>
+    <string-array name="Spain_laliga">
+        <item>Barcelona</item>
+        <item>Real Madrid</item>
+        <item>Athletico Madrid</item>
+        <item>Athletic Bilbao</item>
+        <item>Real Betis</item>
+        <item>Real Socidad</item>
+        <item>Villarial</item>
+        <item>Sevilla</item>
+    </string-array>
+    <string-array name="Bundesliga">
+        <item>Bayern Munich</item>
+        <item>Dortmund</item>
+        <item>Shalk 04</item>
+        <item>RB Lepzic</item>
+        <item>Union Berlin</item>
+        <item>Stutgart</item>
+        <item>Bayer Leverkusen</item>
+        <item>Werder Bremen</item>
+    </string-array>
+    <string-array name="Seria_A">
+        <item>Juventus</item>
+        <item>Inter Milan</item>
+        <item>AC Milan</item>
+        <item>Roma</item>
+        <item>Atalanta</item>
+        <item>Napoli</item>
+        <item>Lazio</item>
+        <item>Sassolo</item>
+    </string-array>
+    <string-array name="tips">
+        <item>1X2</item>
+        <item>BTTS</item>
+        <item>HT/FT</item>
+        <item>Correct Score</item>
+        <item>Total Goals</item>
+        <item>Total Home</item>
+        <item>Total Away</item>
+    </string-array>
+
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Requests</string>
+    <string name="title_notifications">Users</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

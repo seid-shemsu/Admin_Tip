@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tips"
+        android:title="tips"
+        android:icon="@drawable/game"/>
+
+    <item
+        android:id="@+id/requests"
+        android:title="requests"
+        android:icon="@drawable/request"/>
+
+    <item
+        android:id="@+id/users"
+        android:title="users"
+        android:icon="@drawable/person"/>
+
+    <item
+        android:id="@+id/histories"
+        android:title="histories"
+        android:icon="@drawable/history"/>
+</menu>

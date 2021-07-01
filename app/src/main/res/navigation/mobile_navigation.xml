@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/tips">
+
+    <fragment
+        android:id="@+id/tips"
+        android:name="com.izhar.admintip.ui.Tips.TipsFragment"
+        android:label="Tips"
+        tools:layout="@layout/fragment_tips"/>
+
+    <fragment
+        android:id="@+id/requests"
+        android:name="com.izhar.admintip.ui.requests.RequestsFragment"
+        android:label="Requests"
+        tools:layout="@layout/fragment_requests"/>
+
+    <fragment
+        android:id="@+id/users"
+        android:name="com.izhar.admintip.ui.users.UsersFragment"
+        android:label="Users"
+        tools:layout="@layout/fragment_users"/>
+
+    <fragment
+        android:id="@+id/histories"
+        android:name="com.izhar.admintip.ui.histories.HistoriesFragment"
+        android:label="Histories"
+        tools:layout="@layout/fragment_histories"/>
+</navigation>
